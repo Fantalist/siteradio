@@ -1,0 +1,77 @@
+ .header-fixed {
+    background: rgba(165, 60, 42, 0.463);
+    font-size: 14px;
+    position: none;
+    line-height: 40px;
+    height: 40px;
+    text-indent: 20px;
+    width: 100%;
+  }
+  .header-notFixed {
+    line-height: 200px;
+    text-align: center;
+    font-size: 28px;
+  }
+  .header-notFixed p {
+    z-index: 9999;
+    position: fixed;
+  }
+  
+/*navbar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #0812128c;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #dfe9ef;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #e80e0e88;
+    color: rgb(83, 216, 240);
+  }
+  
+  li a:hover:not(.active) {
+    color: white;
+  }
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #f2eaeb;
+    border: 2px solid #bbfe13;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  body{
+    margin: 0;
+  }
+  
+  canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    background: url('https://images8.alphacoders.com/563/563358.png');
+  }
+    h1 {
+      background-color: rgba(27, 19, 19, 0);
+      color: #bbfe13;
+      text-align: center;
+      letter-spacing: 5px;
+      text-shadow: 2px 2px red;
+    }
+  

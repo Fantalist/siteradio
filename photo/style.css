@@ -1,0 +1,40 @@
+
+/*navbar*/
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #0812128c;
+    position: relative;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #dfe9ef;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #e80e0e88;
+    color: rgb(83, 216, 240);
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555555;
+    color: white;
+  }
+  .button {
+    font-size: 1em;
+    padding: 10px;
+    color: #f2eaeb;
+    border: 2px solid #bbfe13;
+    border-radius: 20px/50px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+  
