@@ -1,5 +1,5 @@
 pipeline {
-    agent {label "xabigoity.fr"}
+    agent {label "zerosrv"}
     options {
         // Timeout counter starts AFTER agent is allocated
         timeout(time: 1, unit: 'MINUTES')
